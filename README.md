@@ -18,10 +18,15 @@ Same on connect.
 
 # It doesn't work!
 
-By default it's setup to remove those commonly used by headphones. 
+By default it's setup to remove those commonly used by headphones.
+
 If you have a different device, you can check its services by running `btdiscovery -b "yourDeviceAddress" -s` 
 
 Then you'll have to replace them on the script where every `btcom` command is at.
+
+Sometimes this doesn't show every service, so you can also check by going to control panel -> hardware and sound -> devices and printers -> right click, properties -> services
+
+Then you'll have to correlate these services with the ones listed on [this pdf](https://btprodspecificationrefs.blob.core.windows.net/assigned-numbers/Assigned%20Number%20Types/Assigned_Numbers.pdf) and replace them on the script.
 
 # Credit where it's due:
 
