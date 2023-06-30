@@ -23,8 +23,6 @@ If you have a different device, you can check its services by going to control p
 
 Then you'll have to correlate these services with the ones listed on [this pdf](https://btprodspecificationrefs.blob.core.windows.net/assigned-numbers/Assigned%20Number%20Types/Assigned_Numbers.pdf) and replace them on the script where every `btcom` command is at.
 
-If so, add them to `connect.bat` and `disconnect.bat` files. 
-
 # Credit where it's due:
 
 [This guy on superuser!](https://superuser.com/a/1427536)
